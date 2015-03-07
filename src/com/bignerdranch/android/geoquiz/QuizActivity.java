@@ -13,33 +13,34 @@ import android.widget.Toast;
 public class QuizActivity extends Activity {
 
     private static final String TAG = "QuizActivity";
-
     private static final String KEY_INDEX = "index";
     private static final String KEY_CHEAT = "cheat";
-
+/*
     Button mTrueButton;
     Button mFalseButton;
     Button mNextButton;
     Button mCheatButton;
+*/
 
     boolean mIsCheater;
 
     TextView mQuestionTextView;
-    
-    TrueFalse[] mAnswerKey = new TrueFalse[] {
+
+   /* TrueFalse[] mAnswerKey = new TrueFalse[] {
             new TrueFalse(R.string.question_oceans, true),
             new TrueFalse(R.string.question_mideast, false),
             new TrueFalse(R.string.question_africa, false),
             new TrueFalse(R.string.question_americas, true),
             new TrueFalse(R.string.question_asia, true)
     };
-
+*/
     int mCurrentIndex = 0;
-
+/*
     private void updateQuestion() {
         int question = mAnswerKey[mCurrentIndex].getQuestion();
         mQuestionTextView.setText(question);
     }
+*/
     
     private void checkAnswer(boolean userPressedTrue) {
         boolean answerIsTrue = mAnswerKey[mCurrentIndex].isTrueQuestion();
@@ -70,7 +71,7 @@ public class QuizActivity extends Activity {
         setContentView(R.layout.activity_quiz);
 
         mIsCheater = false;
-
+/*
         mQuestionTextView = (TextView)findViewById(R.id.question_text_view);
 
         mTrueButton = (Button)findViewById(R.id.true_button);
@@ -101,7 +102,7 @@ public class QuizActivity extends Activity {
                 updateQuestion();
             }
         });		
-
+*/
         mCheatButton = (Button)findViewById(R.id.cheat_button);
         mCheatButton.setOnClickListener(new View.OnClickListener() {
 
@@ -165,10 +166,12 @@ public class QuizActivity extends Activity {
         Log.i(TAG, "onDestroy");
     }
 
+/*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_quiz, menu);
         return true;
     }
+    */
 
 }
