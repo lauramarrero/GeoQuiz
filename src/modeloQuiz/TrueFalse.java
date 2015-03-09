@@ -1,4 +1,4 @@
-package modelo1;
+package modeloQuiz;
 
 /**
  * Created by JuanPablo on 07/03/2015.

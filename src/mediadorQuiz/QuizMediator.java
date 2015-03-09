@@ -1,11 +1,11 @@
-package mediador1;
+package mediadorQuiz;
 
 import android.app.Application;
-import controlador1.IQuizController;
-import controlador1.QuizController;
-import modelo1.QuizModel;
-import vista1.IQuizView;
-import vista1.QuizViewActivity;
+import controladorQuiz.IQuizController;
+import controladorQuiz.QuizController;
+import modeloQuiz.QuizModel;
+import vistaQuiz.IQuizView;
+import vistaQuiz.QuizViewActivity;
 
 /**
  * Created by JuanPablo on 07/03/2015.

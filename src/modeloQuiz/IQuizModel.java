@@ -1,4 +1,4 @@
-package modelo1;
+package modeloQuiz;
 
 /**
  * Created by JuanPablo on 07/03/2015.
@@ -9,5 +9,4 @@ public interface IQuizModel {
     public void setNextQuestion();
     public void setPreviousQuestion();
     public int getCurrentQuestion();
-    public void setCheat();
 }

@@ -1,7 +1,7 @@
-package mediador1;
+package mediadorQuiz;
 
-import controlador1.IQuizController;
-import vista1.IQuizView;
+import controladorQuiz.IQuizController;
+import vistaQuiz.IQuizView;
 
 /**
  * Created by JuanPablo on 07/03/2015.

@@ -1,4 +1,4 @@
-package modelo1;
+package modeloQuiz;
 
 import com.bignerdranch.android.geoquiz.R;
 

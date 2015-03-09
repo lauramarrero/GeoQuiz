@@ -1,7 +1,7 @@
-package controlador1;
+package controladorQuiz;
 
-import modelo1.IQuizModel;
-import vista1.IQuizView;
+import modeloQuiz.IQuizModel;
+import vistaQuiz.IQuizView;
 
 /**
  * Created by JuanPablo on 07/03/2015.

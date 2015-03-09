@@ -1,4 +1,4 @@
-package modelo1;
+package modeloQuiz;
 
 import com.bignerdranch.android.geoquiz.R;
 
@@ -21,6 +21,10 @@ public class QuizModel implements IQuizModel {
                 new TrueFalse(R.string.question_americas, true),
                 new TrueFalse(R.string.question_asia, true)
         };
+    }
+
+    public TrueFalse[] getAnswerKey(){
+        return this.answerKey;
     }
 
     @Override
